@@ -1,0 +1,17 @@
+{
+  "name": "bluehost/endurance-wp-module-business-reviews",
+  "description": "Bluehost Business Reviews Integration",
+  "type": "library",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "William Earnhardt",
+      "email": "william.earnhardt@endurance.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "bootstrap.php"
+    ]
+  }
+}

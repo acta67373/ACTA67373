@@ -1,0 +1,2 @@
+[21-Jan-2017 09:34:10 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/acta/public_html/wp-content/plugins/gwconditionalpricing/includes/class-gp-bootstrap.php on line 15
+[21-Jan-2017 09:34:10 UTC] PHP Fatal error:  Class 'GWPerk' not found in /home/acta/public_html/wp-content/plugins/gwconditionalpricing/class-gp-conditional-pricing.php on line 3

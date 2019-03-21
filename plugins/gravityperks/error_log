@@ -1,0 +1,1 @@
+[21-Jan-2017 09:34:10 UTC] PHP Fatal error:  Call to undefined function plugin_dir_path() in /home/acta/public_html/wp-content/plugins/gravityperks/gravityperks.php on line 18

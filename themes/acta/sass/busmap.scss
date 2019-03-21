@@ -1,0 +1,94 @@
+//These imports are in custom.scss but shouldn't be pulling anything in, only referencing the libraries when used.
+@import "compass/css3";
+@import "susy";
+@import "compass/utilities/general/clearfix";
+
+#map {
+  width: 95%;
+  height: 40rem;
+  background-color: #dddddd;
+  display: block;
+  position: relative;
+}
+
+.busicon {
+  background-color: rgba(255, 255, 255, 0);
+  animation: move 3s ease;
+  .arrow{
+    fill: #ffffff;
+    stroke: none;
+  }
+
+  .vehicle{
+    stroke: #555555;
+    stroke-width: 1px;
+  }
+
+  .wheel{
+    stroke: none;
+    fill: #555555;
+  }
+
+  rect{
+    fill: none;
+  }
+}
+
+.paac-bus .vehicle{
+  fill: #0099dd;
+}
+
+.acta-bus .vehicle{
+  fill: #fd7400;
+}
+
+#legend {
+  width:95%;
+  background-color: #f2f2f2;
+  border: 1px solid #cccccc;
+  h3 {
+    color:#666;
+    font-weight: 300;
+    text-align: center;
+    font-size: 1.2em;
+    padding:.5em 0 .5em 0em;
+    @media screen and (min-width: 850px) {
+      text-align: left;
+      padding:.5em 0 .5em 1em;
+    }
+  }
+  ul {
+    @include clearfix;
+    padding:.2em 0em .2em 0em;
+    display: -ms-flexbox; 
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+    -ms-flex-wrap: wrap;
+    li {
+      text-align: center;
+      line-height: 1.1em;
+      min-height: 25px;
+      color:#666;
+      @media screen and (min-width: 600px) {
+        @include span(5 of 10);
+        @include gutters(0em);
+        min-height: 50px;
+        &:nth-child(5) {
+          @include span (10 of 10);
+        }
+      }
+      @media screen and (min-width: 850px) {
+        @include span(2 of 10);
+        @include gutters(1%);
+        min-height: 35px;
+        &:nth-child(5) {
+          @include span (2 of 10);
+        }
+      }
+      
+      list-style: none;
+      @include display-flex;
+      display: block;
+    }
+  }
+}

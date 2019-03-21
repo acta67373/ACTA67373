@@ -1,0 +1,17 @@
+$susy: (
+  columns: 12,
+  gutters: 0,
+  global-box-sizing: border-box,
+  math: fluid,
+  output: float,
+  gutter-position: split,
+  debug: (
+    image: hide,
+    color: rgba(#66f, .25),
+    output: background,
+    toggle: top right,
+  ),
+  use-custom: (
+    clearfix: false,    
+  ),
+);

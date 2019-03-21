@@ -1,0 +1,9 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+# gem "rails"
+gem "susy"
+gem "compass", "1.0.0.alpha.21"
+gem "breakpoint"
+gem "sassy-buttons"
+gem "compass-rgbapng"

@@ -1,0 +1,5 @@
+
+# BEGIN Gravity Forms
+# Disable access to files via Apache web servers.
+deny from all
+# END Gravity Forms

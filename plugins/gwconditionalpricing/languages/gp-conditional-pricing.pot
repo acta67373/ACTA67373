@@ -1,0 +1,128 @@
+# Copyright (C) 2015 GP Conditional Pricing
+# This file is distributed under the same license as the GP Conditional Pricing package.
+msgid ""
+msgstr ""
+"Project-Id-Version: GP Conditional Pricing 1.2.8.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/gwconditionalpricing\n"
+"POT-Creation-Date: 2015-06-02 21:07:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: gwconditionalpricing.php:66 gwconditionalpricing.php:87
+msgid "Conditional Pricing"
+msgstr ""
+
+#: gwconditionalpricing.php:229
+msgid "This product costs <strong>%s</strong> if <strong>%s</strong> of the following match:"
+msgstr ""
+
+#: gwconditionalpricing.php:230
+msgid "This product costs %s if "
+msgstr ""
+
+#: gwconditionalpricing.php:231 gwconditionalpricing.php:968
+msgid "Add New Pricing Level"
+msgstr ""
+
+#: gwconditionalpricing.php:232
+msgid "Select a Product"
+msgstr ""
+
+#: gwconditionalpricing.php:233 gwconditionalpricing.php:1418
+msgid "Quantity"
+msgstr ""
+
+#: gwconditionalpricing.php:234
+msgid "Enter Quantity"
+msgstr ""
+
+#: gwconditionalpricing.php:235 gwconditionalpricing.php:952
+msgid "or"
+msgstr ""
+
+#: gwconditionalpricing.php:236 gwconditionalpricing.php:952
+msgid "and"
+msgstr ""
+
+#: gwconditionalpricing.php:931
+msgid "Save Conditional Pricing"
+msgstr ""
+
+#: gwconditionalpricing.php:974
+msgid "You have not added any pricing levels."
+msgstr ""
+
+#: gwconditionalpricing.php:975
+msgid "Select a product from the drop down above to add a pricing level for that product."
+msgstr ""
+
+#: gwconditionalpricing.php:984
+msgid "Done"
+msgstr ""
+
+#: gwconditionalpricing.php:985
+msgid "Delete"
+msgstr ""
+
+#: gwconditionalpricing.php:1026
+msgid "Conditional pricing saved successfully!"
+msgstr ""
+
+#: gwconditionalpricing.php:1028
+msgid "There was an error saving your conditional pricing."
+msgstr ""
+
+#: gwconditionalpricing.php:1164
+msgid "There was an error calculating the price for this field."
+msgstr ""
+
+#: gwconditionalpricing.php:1394
+msgid "is"
+msgstr ""
+
+#: gwconditionalpricing.php:1395
+msgid "is not"
+msgstr ""
+
+#: gwconditionalpricing.php:1396
+msgid "greater than"
+msgstr ""
+
+#: gwconditionalpricing.php:1397
+msgid "less than"
+msgstr ""
+
+#: gwconditionalpricing.php:1398
+msgid "contains"
+msgstr ""
+
+#: gwconditionalpricing.php:1399
+msgid "starts with"
+msgstr ""
+
+#: gwconditionalpricing.php:1400
+msgid "ends with"
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "GP Conditional Pricing"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://gravitywiz/category/perks/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Create flexible, conditional pricing for your Gravity Form product fields."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "David Smith"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://gravitywiz.com/"
+msgstr ""
