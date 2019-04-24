@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<ruleset name="WordPress Coding Standards">
+	<description>Everest Forms dev PHP_CodeSniffer ruleset.</description>
+
+	<!-- Exclude paths -->
+	<exclude-pattern>includes/libraries/</exclude-pattern>
+	<exclude-pattern>includes/evf-deprecated-functions.php</exclude-pattern>
+	<exclude-pattern>includes/abstracts/legacy/</exclude-pattern>
+	<exclude-pattern>*/node_modules/*</exclude-pattern>
+	<exclude-pattern>*/vendor/*</exclude-pattern>
+
+	<!-- Configs -->
+	<config name="minimum_supported_wp_version" value="4.7" />
+	<config name="testVersion" value="5.2-" />
+
+	<!-- Rules -->
+	<rule ref="WPEverest-Core" />
+
+	<rule ref="PEAR.NamingConventions.ValidClassName">
+		<exclude-pattern>includes/</exclude-pattern>
+	</rule>
+
+	<rule ref="WordPress.Files.FileName.InvalidClassFileName">
+		<exclude-pattern>includes/class-everest-forms.php</exclude-pattern>
+	</rule>
+
+	<rule ref="WordPress.WP.I18n">
+		<properties>
+			<property name="text_domain" type="array" value="everest-forms" />
+		</properties>
+	</rule>
+</ruleset>

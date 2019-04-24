@@ -1,0 +1,2 @@
+[21-Jan-2017 09:33:17 UTC] PHP Fatal error:  Call to undefined function add_action() in /home/acta/public_html/wp-content/plugins/gravityformsstripe/stripe.php on line 32
+[21-Jan-2017 09:33:17 UTC] PHP Fatal error:  Class 'GFForms' not found in /home/acta/public_html/wp-content/plugins/gravityformsstripe/class-gf-stripe.php on line 3
